@@ -1,0 +1,32 @@
+.usuario {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.usuario-caja {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 22px;
+  margin-top: 18px;
+}
+
+.usuario-caja label {
+  display: block;
+  font-size: 14px;
+  margin: 18px 0 6px;
+}
+
+.usuario-caja input {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  color: #222;
+}
+
+.usuario-caja p {
+  padding-top: 12px;
+}

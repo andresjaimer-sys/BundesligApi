@@ -1,0 +1,25 @@
+.contenedor {
+  max-width: 1050px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 24px 16px 100px;
+}
+
+.contenedor h1 {
+  font-size: 27px;
+  margin: 0 0 8px;
+}
+
+.contenedor h2 {
+  font-size: 20px;
+}
+
+@media (max-width: 600px) {
+  .contenedor {
+    padding: 18px 12px 100px;
+  }
+
+  .contenedor h1 {
+    font-size: 23px;
+  }
+}

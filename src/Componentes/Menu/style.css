@@ -1,0 +1,38 @@
+.menu {
+  position: fixed;
+  z-index: 10;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  padding: 8px;
+  background-color: #242424;
+  gap: 4px;
+}
+
+.menu button {
+  flex: 1;
+  min-width: 0;
+  padding: 13px 3px;
+  color: white;
+  font-size: 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+.menu button.activo {
+  background-color: #d71920;
+}
+
+@media (max-width: 600px) {
+  .menu {
+    padding: 7px 3px;
+    gap: 0;
+  }
+
+  .menu button {
+    font-size: 10px;
+    padding: 13px 2px;
+  }
+}

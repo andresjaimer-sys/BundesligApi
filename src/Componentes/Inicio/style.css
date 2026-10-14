@@ -1,0 +1,101 @@
+.inicio .subtitulo {
+  margin: 0 0 18px;
+  color: #666;
+}
+
+.inicio .contador {
+  font-size: 14px;
+  color: #555;
+}
+
+.inicio .mensaje-error {
+  color: #bd1e1e;
+}
+
+.controles {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.controles input,
+.controles select {
+  flex: 1;
+  min-width: 0;
+  padding: 11px;
+  background-color: white;
+  color: #222;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.c-lista {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.c-equipo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+  width: 100%;
+  padding: 17px 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: white;
+  color: #222;
+  text-align: center;
+}
+
+.c-equipo:hover {
+  background-color: #f9f9f9;
+}
+
+.c-equipo img {
+  width: 62px;
+  height: 62px;
+  object-fit: contain;
+}
+
+.c-equipo strong {
+  font-size: 15px;
+}
+
+.c-equipo span {
+  font-size: 13px;
+}
+
+.c-equipo .posicion {
+  color: #555;
+}
+
+@media (max-width: 600px) {
+  .controles {
+    flex-direction: column;
+  }
+
+  .c-lista {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 9px;
+  }
+
+  .c-equipo {
+    padding: 12px 7px;
+  }
+
+  .c-equipo img {
+    width: 48px;
+    height: 48px;
+  }
+
+  .c-equipo strong {
+    font-size: 13px;
+  }
+
+  .c-equipo span {
+    font-size: 12px;
+  }
+}

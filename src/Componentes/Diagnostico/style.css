@@ -1,0 +1,97 @@
+.diagnostico {
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+.diagnostico > p {
+  color: #555;
+}
+
+.diagnostico label {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 20px 0 7px;
+}
+
+.diagnostico select {
+  width: 100%;
+  padding: 12px;
+  background-color: white;
+  color: #222;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.diagnostico-equipo {
+  background-color: white;
+  padding: 20px;
+  margin-top: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.diagnostico-equipo img {
+  width: 85px;
+  height: 85px;
+  object-fit: contain;
+}
+
+.diagnostico-equipo p {
+  color: #555;
+}
+
+.diagnostico-estadisticas {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.diagnostico-estadisticas > div {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px 10px;
+  text-align: center;
+}
+
+.diagnostico-estadisticas h3 {
+  font-size: 13px;
+  font-weight: normal;
+}
+
+.diagnostico-estadisticas p {
+  margin: 8px 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: #d71920;
+}
+
+.diagnostico-resultado {
+  background-color: white;
+  padding: 18px;
+  border-left: 4px solid #d71920;
+  border-radius: 6px;
+  margin-top: 13px;
+}
+
+.diagnostico-resultado h2 {
+  margin: 0;
+}
+
+.diagnostico-resultado p {
+  font-size: 13px;
+  color: #555;
+}
+
+@media (max-width: 600px) {
+  .diagnostico-estadisticas {
+    gap: 8px;
+  }
+
+  .diagnostico-estadisticas p {
+    font-size: 20px;
+  }
+}

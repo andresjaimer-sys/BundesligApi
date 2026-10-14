@@ -1,0 +1,66 @@
+.favoritos > p {
+  color: #555;
+}
+
+.favoritos-lista {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.favorito-tarjeta {
+  padding: 20px 12px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.favorito-tarjeta img {
+  width: 65px;
+  height: 65px;
+  object-fit: contain;
+}
+
+.favorito-tarjeta h3 {
+  font-size: 15px;
+}
+
+.favorito-tarjeta p {
+  font-size: 14px;
+}
+
+.favorito-tarjeta button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 7px;
+  border: none;
+  border-radius: 5px;
+  background-color: #222;
+  color: white;
+}
+
+.favorito-tarjeta button.quitar {
+  background-color: #b6252a;
+}
+
+@media (max-width: 600px) {
+  .favoritos-lista {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 9px;
+  }
+
+  .favorito-tarjeta {
+    padding: 14px 8px;
+  }
+
+  .favorito-tarjeta img {
+    width: 48px;
+    height: 48px;
+  }
+
+  .favorito-tarjeta h3 {
+    font-size: 13px;
+  }
+}

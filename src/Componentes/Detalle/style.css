@@ -1,0 +1,46 @@
+.detalle {
+  max-width: 600px;
+  margin: 12px auto;
+  padding: 24px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.detalle > img {
+  width: 95px;
+  height: 95px;
+  object-fit: contain;
+  margin-bottom: 12px;
+}
+
+.detalle h1 {
+  overflow-wrap: anywhere;
+}
+
+.detalle > p {
+  color: #555;
+}
+
+.detalle .boton-favorito {
+  padding: 12px 17px;
+  margin: 12px auto;
+  background-color: #d71920;
+  color: white;
+  border: none;
+  border-radius: 6px;
+}
+
+.detalle-estadisticas {
+  text-align: left;
+}
+
+.detalle-estadisticas p {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 4px;
+  border-bottom: 1px solid #eee;
+  margin: 0;
+}
